@@ -1,0 +1,14 @@
+Package: aircrack-ng
+Version: 1.6-1
+Depends: libc, libpcap1, libpcre, libpthread, uclibcxx, libopenssl1.1, libnl-core200, libnl-genl200, zlib
+Source: feeds/packages/net/aircrack-ng
+SourceName: aircrack-ng
+License: GPL-2.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1580161742
+CPE-ID: cpe:/a:aircrack-ng:aircrack-ng
+Maintainer: Rick Farina <zerochaos@gentoo.org>
+Architecture: mipsel_24kc
+Installed-Size: 391488
+Description:  WLAN tools for breaking 802.11 WEP/WPA keys

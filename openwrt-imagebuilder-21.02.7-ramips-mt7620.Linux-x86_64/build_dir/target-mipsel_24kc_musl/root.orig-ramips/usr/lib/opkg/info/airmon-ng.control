@@ -1,0 +1,14 @@
+Package: airmon-ng
+Version: 1.6-1
+Depends: libc, wireless-tools, ethtool, procps-ng
+Source: feeds/packages/net/aircrack-ng
+SourceName: airmon-ng
+License: GPL-2.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1580161742
+CPE-ID: cpe:/a:aircrack-ng:aircrack-ng
+Maintainer: Rick Farina <zerochaos@gentoo.org>
+Architecture: mipsel_24kc
+Installed-Size: 13325
+Description:  Bash script designed to turn wireless cards into monitor mode.

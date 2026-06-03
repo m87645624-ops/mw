@@ -1,0 +1,13 @@
+Package: libkmod
+Version: 27-2
+Depends: libc, zlib
+Source: feeds/packages/utils/kmod
+SourceName: libkmod
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1607593828
+Maintainer: Jeff Waugh <jdub@bethesignal.org>
+Architecture: mipsel_24kc
+Installed-Size: 30983
+Description:  Linux kernel module handling (library)

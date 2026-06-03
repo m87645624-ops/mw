@@ -1,0 +1,11 @@
+Package: uclibcxx
+Version: 0.2.5-3
+Depends: libc
+Source: feeds/base/package/libs/uclibc++
+SourceName: uclibcxx
+License: LGPL-2.1-or-later
+Section: libs
+SourceDateEpoch: 1661666036
+Architecture: mipsel_24kc
+Installed-Size: 66292
+Description:  C++ library for embedded systems
