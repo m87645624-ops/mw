@@ -1,0 +1,15 @@
+Package: screen
+Version: 4.8.0-2
+Depends: libc, libncurses6
+Source: feeds/packages/utils/screen
+SourceName: screen
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614078606
+CPE-ID: cpe:/a:gnu:screen
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 151979
+Description:  Screen is a full-screen window manager that multiplexes a physical
+ terminal between several processes, typically interactive shells.

@@ -40,15 +40,11 @@ kmod-nf-ipt6 - 5.4.238-1
 kmod-nf-nat - 5.4.238-1
 kmod-nf-reject - 5.4.238-1
 kmod-nf-reject6 - 5.4.238-1
-kmod-ppp - 5.4.238-1
-kmod-pppoe - 5.4.238-1
-kmod-pppox - 5.4.238-1
 kmod-rt2800-lib - 5.4.238+5.10.168-1-1
 kmod-rt2800-mmio - 5.4.238+5.10.168-1-1
 kmod-rt2800-soc - 5.4.238+5.10.168-1-1
 kmod-rt2x00-lib - 5.4.238+5.10.168-1-1
 kmod-rt2x00-mmio - 5.4.238+5.10.168-1-1
-kmod-slhc - 5.4.238-1
 libblkid1 - 2.36.1-2
 libblobmsg-json20210516 - 2021-05-16-b14c4688-2
 libc - 1.1.24-3
@@ -115,8 +111,6 @@ openwrt-keyring - 2021-02-20-49283916-2
 opkg - 2021-06-13-1bf042dd-2
 pciids - 0.359-1
 pciutils - 3.8.0-2
-ppp - 2.4.8.git-2020-10-03-3
-ppp-mod-pppoe - 2.4.8.git-2020-10-03-3
 procd - 2021-03-08-2cfc26f8-2
 procps-ng - 3.3.16-3
 rpcd - 2022-02-19-8d26a1ba-1
@@ -124,6 +118,7 @@ rpcd-mod-file - 2022-02-19-8d26a1ba-1
 rpcd-mod-iwinfo - 2022-02-19-8d26a1ba-1
 rpcd-mod-luci - 20210614
 rpcd-mod-rrdns - 20170710
+screen - 4.8.0-2
 swconfig - 12
 terminfo - 6.2-3
 ubox - 2020-10-25-9ef88681-2

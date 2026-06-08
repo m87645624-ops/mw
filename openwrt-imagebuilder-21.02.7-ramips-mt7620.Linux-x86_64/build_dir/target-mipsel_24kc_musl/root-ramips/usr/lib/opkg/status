@@ -256,27 +256,11 @@ Architecture: mipsel_24kc
 Installed-Time: 1681737336
 Auto-Installed: yes
 
-Package: kmod-pppoe
-Version: 5.4.238-1
-Depends: kernel (= 5.4.238-1-0da76fec06cd5588cee86d873eb8f04b), kmod-ppp, kmod-pppox
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1681737336
-Auto-Installed: yes
-
 Package: libuuid1
 ABIVersion: 1
 Version: 2.36.1-2
 Depends: libc, librt
 Provides: libuuid
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1681737336
-Auto-Installed: yes
-
-Package: kmod-pppox
-Version: 5.4.238-1
-Depends: kernel (= 5.4.238-1-0da76fec06cd5588cee86d873eb8f04b), kmod-ppp
 Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1681737336
@@ -485,6 +469,15 @@ Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1681737336
 Auto-Installed: yes
+
+Package: screen
+Version: 4.8.0-2
+Depends: libc, libncurses6
+Status: install user installed
+Architecture: mipsel_24kc
+Conffiles:
+ /etc/screenrc 5bb81ba550767a72527bd6d51e2b0d4c53bcf306e4788a9d1d84dcd6d0d6c5eb
+Installed-Time: 1681737336
 
 Package: luci-mod-status
 Version: git-22.089.70019-d4f0b06
@@ -714,17 +707,6 @@ Architecture: all
 Installed-Time: 1681737336
 Auto-Installed: yes
 
-Package: ppp
-Version: 2.4.8.git-2020-10-03-3
-Depends: libc, kmod-ppp
-Status: install user installed
-Architecture: mipsel_24kc
-Conffiles:
- /etc/ppp/chap-secrets 6981fa176a79f8c12be5826c421b16253a616747018ba7e76752a9d36d1d51d4
- /etc/ppp/filter 579583b318e0cff706ffc134620b42d3fbce8fc31aeb0ad7eea1cc859868e902
- /etc/ppp/options 01f7358a5528be037dde329a2ecfb7a63382aababf21d4f5bc085f5acef95133
-Installed-Time: 1681737336
-
 Package: luci-mod-admin-full
 Version: git-19.253.48496-3f93650
 Depends: libc, luci-base, luci-mod-status, luci-mod-system, luci-mod-network
@@ -882,14 +864,6 @@ Auto-Installed: yes
 Package: kmod-ipt-core
 Version: 5.4.238-1
 Depends: kernel (= 5.4.238-1-0da76fec06cd5588cee86d873eb8f04b), kmod-nf-reject, kmod-nf-ipt
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1681737336
-Auto-Installed: yes
-
-Package: kmod-ppp
-Version: 5.4.238-1
-Depends: kernel (= 5.4.238-1-0da76fec06cd5588cee86d873eb8f04b), kmod-lib-crc-ccitt, kmod-slhc
 Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1681737336
@@ -1192,14 +1166,6 @@ Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1681737336
 
-Package: kmod-slhc
-Version: 5.4.238-1
-Depends: kernel (= 5.4.238-1-0da76fec06cd5588cee86d873eb8f04b), kmod-lib-crc-ccitt
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1681737336
-Auto-Installed: yes
-
 Package: kmod-cfg80211
 Version: 5.4.238+5.10.168-1-1
 Depends: kernel (= 5.4.238-1-0da76fec06cd5588cee86d873eb8f04b), iw, wireless-regdb
@@ -1215,13 +1181,6 @@ Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1681737336
 Auto-Installed: yes
-
-Package: ppp-mod-pppoe
-Version: 2.4.8.git-2020-10-03-3
-Depends: libc, kmod-pppoe
-Status: install user installed
-Architecture: mipsel_24kc
-Installed-Time: 1681737336
 
 Package: kmod-ipt-nat
 Version: 5.4.238-1
